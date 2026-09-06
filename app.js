@@ -38,11 +38,4 @@ function setupReveal(){
   els.forEach(el=>observer.observe(el));
 }
 
-function setupBrandColor(){
-  const brand=document.querySelector('.brand');
-  const mark=document.querySelector('.brand-mark');
-  if(brand) brand.style.color='#c5423b';
-  if(mark) mark.style.backgroundColor='#c5423b';
-}
-
-document.addEventListener('DOMContentLoaded',()=>{applyConfig();setupReveal();setupBrandColor()});
+document.addEventListener('DOMContentLoaded',()=>{applyConfig();setupReveal()});
